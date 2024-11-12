@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(#ee5253, #F97F51);
+            min-height: 100vh;
+        }
+        .box h1{
+            margin-bottom: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+        .box{
+            width: 500px;
+            height: 600px;
+            background: #fff;
+            margin: 100 auto;
+            border-radius: 5px;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        input[type='email'], input[type='password']{
+            width: 100%;
+            padding: 6px 10px;
+            margin-bottom: 20px;
+        }
+        .box a{
+            margin-bottom: 10px;
+            display: block;
+            text-emphasis: none;
+            color: #000;
+            opacity: 0.7;
+        }
+        input[type='submit']{
+            width: 60%;
+            padding: 10px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: 700;
+            background: rgb(255, 64, 47);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Sign in</h1>
+        <form>
+            <input type="email" placeholder="Enter your mail"> <br>
+            <input type="password" placeholder="Enter your password"><br>
+            <a href="#">Forgot your password</a><br>
+            <input type="submit" value="Sign in">
+        </form>
+    </div>
+</body>
+</html>
